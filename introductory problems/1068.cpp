@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+long long n;
 int main()
 {
-    long long n;cin>>n;
+    cin>>n;
     while(n>1)
     {
         cout<<n<<' ';
