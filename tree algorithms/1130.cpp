@@ -13,7 +13,6 @@ using namespace std;
 int n;
 vector<int> g[N];
 ll dp[2][N];
-bool vs[N];
 void dfs(int u=1,int p=-1)
 {
     for(int v:g[u])
@@ -40,7 +39,6 @@ int main()
     }
     //input:
     cin>>n;
-    vs[1]=1;
     int u,v;
     F(i,2,n,1)
     {
