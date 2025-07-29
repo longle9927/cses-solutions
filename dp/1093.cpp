@@ -10,7 +10,6 @@ const int N=1e6+5;
 const ll MOD=1e9+7;
 #define el cout<<'\n'
 using namespace std;
-int n;
 ll dp[N];
 int main()
 {
@@ -22,7 +21,7 @@ int main()
         freopen(".out","w",stdout);
     }
     //input:
-    cin>>n;
+    int n;cin>>n;
     clock_t begin = clock();
     //code:
     ll s=n*(n+1)/2;
