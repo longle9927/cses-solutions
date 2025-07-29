@@ -10,7 +10,8 @@ const int N=1e6+5;
 const int MOD=1e9+7;
 #define el cout<<'\n'
 using namespace std;
-int n,a[N];
+int n;
+int a[N];
 int main()
 {
     ios_base::sync_with_stdio(0);
