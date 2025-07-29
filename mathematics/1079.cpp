@@ -29,7 +29,6 @@ ll nghichdaomodulo(ll a,ll m)
 ll gt[N],nd[N];
 void init()
 {
-    
     gt[0]=nd[0]=1;
     F(i,1,N-5,1)
     {
