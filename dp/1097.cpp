@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using ll=long long;
-const int N=5e3+5;
+const int N=6e3+5;
 #define pii pair<int,int> //sua thanh ll khi can
 #define fi first
 #define se second
